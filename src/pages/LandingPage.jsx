@@ -5,6 +5,7 @@ import { Coaching } from "../component/Coaching"
 import { Home } from "../component/Home"
 import { Plan } from "../component/Plan"
 import { Serviceplan } from "../component/ServicePlan"
+import { Footer } from "../component/Footer"
 const LandingPage = () => {
     return <div>
         <Home />
@@ -13,6 +14,7 @@ const LandingPage = () => {
         <Client />
         <Serviceplan />
         <Coaching />
+        <Footer />
     </div>
 }
 

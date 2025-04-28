@@ -4,7 +4,7 @@ import Group127 from "../assets/Group127.png"
 export const About = () => {
     return (
         <div
-            className="w-full h-screen bg-cover bg-center flex flex-col justify-center items-center py-64"
+            className="w-full h-screen bg-cover bg-center flex flex-col justify-center items-center py-16"
             style={{ backgroundImage: `url(${AboutBG})` }}
         >
             <p className="text-white text-[40px] font-medium self-start ml-64 mb-8">About Us</p>
