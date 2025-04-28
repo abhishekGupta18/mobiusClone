@@ -14,9 +14,9 @@ export const Home = () => {
                 <Navbar />
             </div>
 
-            <div className="flex justify-center mb-40 h-[450px] gap-32 " >
+            <div className="flex justify-center mb-40 h-[500px] gap-32 " >
 
-                <div className=" flex flex-col justify-between">
+                <div className=" flex flex-col gap-8">
                     <h1 className="text-[80px] text-white">
                         Land job interviews <br></br> <span className="text-[#022183]">10x</span> faster
                     </h1>
@@ -27,7 +27,7 @@ export const Home = () => {
                     <img src={getStarted} alt="grt started" srcset="" className="h-[70px] w-[220px]" />
                 </div>
 
-                <div >
+                <div className="h-full" >
                     <img src={bookImg} alt="" srcset="" />
                 </div>
 
