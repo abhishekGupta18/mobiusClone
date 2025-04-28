@@ -13,9 +13,6 @@ export const Client = () => {
             <img src={Group72} alt="" srcset="" />
 
         </div>
-        <div className="flex justify-center gap-16 ">
-            <img src={Group131} alt="" srcset="" />
 
-        </div>
     </div>
 }
